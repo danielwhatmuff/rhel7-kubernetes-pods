@@ -9,9 +9,9 @@
 - Once you have installed the necessary packages as described in the docs above, copy the pod files into the /etc/kubernetes/manifests directory.
 ```bash
 $ mkdir -p /etc/kubernetes/manifests/ && cd /etc/kubernetes/manifests/
-$ curl -s -L -O https://raw.githubusercontent.com/danielwhatmuff/rhel7-kubernetes-pods/master/apiserver-pod.json
-$ curl -s -L -O https://raw.githubusercontent.com/danielwhatmuff/rhel7-kubernetes-pods/master/scheduler-pod.json
-$ curl -s -L -O https://raw.githubusercontent.com/danielwhatmuff/rhel7-kubernetes-pods/master/controller-mgr-pod.json
+$ curl -s -L -O https://raw.githubusercontent.com/danielwhatmuff/rhel7-kubernetes-pods/master/apiserver.pod.json
+$ curl -s -L -O https://raw.githubusercontent.com/danielwhatmuff/rhel7-kubernetes-pods/master/scheduler.pod.json
+$ curl -s -L -O https://raw.githubusercontent.com/danielwhatmuff/rhel7-kubernetes-pods/master/controller-mgr.pod.json
 ```
 - Ensure the kubelet service is started and and run the following to track progress...
 ```bash
