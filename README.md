@@ -13,7 +13,7 @@ $ curl -s -L -O https://raw.githubusercontent.com/danielwhatmuff/rhel7-kubernete
 $ curl -s -L -O https://raw.githubusercontent.com/danielwhatmuff/rhel7-kubernetes-pods/master/scheduler.pod.json
 $ curl -s -L -O https://raw.githubusercontent.com/danielwhatmuff/rhel7-kubernetes-pods/master/controller-mgr.pod.json
 ```
-- Ensure the kubelet service is started and and run the following to track progress...
+- Ensure the kubelet service is started and run the following to track progress...
 ```bash
 $ kubectl get po
 ```
